@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Илья Поляков](https://up.htmlacademy.ru/adaptive-individual/2/user/2531813).
-* Наставник: `Артем Картавый`.
+* Наставник: [Артем Картавый](https://htmlacademy.ru/profile/artem_k).
 
 ---
 
