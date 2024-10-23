@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="styles/styles.css" />
     <script src="scripts/index.js" defer></script>
   </head>
-  <body class="page__header">
+  <body class="page">
     <header class="main-header">
-      <div class="main-nav__wrapper">
+      <nav class="navigation">
         <a class="main-header__logo">
           <img
             class="main-header__logo-image"
@@ -28,45 +28,51 @@
             alt="текст кот энергия"
           />
         </a>
-        <button class="main-nav__toggle" type="button">
+        <button class="open-menu" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
-        <ul class="main-nav__list">
-          <li class="site-list__item site-list__item--current">
+        <ul class="navigation-list">
+          <li class="navigation-item navigation-item--current">
             <a href="#">Главная</a>
           </li>
-          <li class="site-list__item site-list__item--current">
+          <li class="navigation-item navigation-item--current">
             <a href="#">Каталог продукции</a>
           </li>
-          <li class="site-list__item site-list__item--current">
+          <li class="navigation-item navigation-item--current">
             <a href="#">Подбор программы</a>
           </li>
         </ul>
         <h1>Функциональное питание для котов</h1>
-        <h2>Занялся собой? Займись котом!</h2>
+        <p>Занялся собой? Займись котом!</p>
         <a href="#" class="select_program">Подобрать программу</a>
-      </div>
+      </nav>
     </header>
     <main class="main-container">
-      <section class="product product--slim">
-        <h2 class="visually-hidden">Похудение</h2>
-        <p class="product__description">
-          Ваш кот весит больше собаки и почти утратил способность лазить по
-          деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу
-          сбросить лишний вес.
-        </p>
-        <a href="#" class="product__link">Каталог SLIM </a>
-        <h2 class="visually-hidden">Набор массы</h2>
-        <p>
-          Заработать авторитет среди дворовых котов и даже собак? Серия Cat
-          Energy Pro поможет вашему коту нарастить необходимые мышцы!
-        </p>
-        <a href="#" class="product__link">Каталог Pro </a>
+      <section class="product-program">
+        <ul>
+          <li>
+            <h2 class="visually-hidden">Похудение</h2>
+            <p class="product-program-text">
+              Ваш кот весит больше собаки и почти утратил способность лазить по
+              деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу
+              сбросить лишний вес.
+            </p>
+            <a href="#" class="product-program-link">Каталог SLIM </a>
+          </li>
+          <li>
+            <h2 class="visually-hidden">Набор массы</h2>
+            <p class="product-program-text">
+              Заработать авторитет среди дворовых котов и даже собак? Серия Cat
+              Energy Pro поможет вашему коту нарастить необходимые мышцы!
+            </p>
+            <a href="#" class="product-program-link">Каталог Pro </a>
+          </li>
+        </ul>
       </section>
       <section class="how-it-works">
         <div class="how-it-works__wrapper">
           <h2 class="visually-hidden">Как это работает</h2>
-          <ul class="how-it-works__steps">
+          <ol class="how-it-works__steps">
             <li class="how-it-works__element">
               <p class="how-it-works__description">
                 Функциональное питание содержит только полезные питательные
@@ -91,7 +97,7 @@
                 питомца!
               </p>
             </li>
-          </ul>
+          </ol>
         </div>
       </section>
       <section class="example-case">
@@ -129,7 +135,7 @@
         <div class="main-footer__contact">
           <a
             ><img
-              class="contacts__icon"
+              class="contacts-icon"
               src="/source/images/cat_energy_text.svg"
               width="128"
               height="24"
@@ -137,24 +143,24 @@
           /></a>
         </div>
         <div class="main-footer__social">
-          <ul class="social__list">
-            <li class="social__item">
+          <ul class="social-list">
+            <li class="social-item">
               <a
-                class="social__link social__link--vkonakte"
+                class="social-link social-link--vkonakte"
                 href="https://vk.com/htmlacademy"
                 >Вконтакте</a
               >
             </li>
-            <li class="social__item">
+            <li class="social-item">
               <a
-                class="social__link social__link--yotube"
+                class="social-link social-link--yotube"
                 href="https://www.youtube.com/@HTMLAcademyTV"
                 >Ютуб</a
               >
             </li>
-            <li class="social__item">
+            <li class="social-item">
               <a
-                class="social__link social__link--telegram"
+                class="social-link social-link--telegram"
                 href="https://t.me/htmlacademy"
                 >Телеграм</a
               >
