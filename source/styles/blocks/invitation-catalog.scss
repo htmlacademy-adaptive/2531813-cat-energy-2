@@ -1,0 +1,21 @@
+.invitation-catalog__title {
+  font-family: $font-display;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $darkGray;
+}
+
+.invitation-catalog__address-link {
+  font-family: $font-stack;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: $slateGray;
+  text-decoration: none;
+}
+
+
+.invitation-catalog {
+  background-color: #f2f2f2;
+}

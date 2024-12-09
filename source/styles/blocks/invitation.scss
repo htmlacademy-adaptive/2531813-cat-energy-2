@@ -1,0 +1,97 @@
+.invitation__title {
+  font-family: $font-display;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $darkGray;
+  width: 140px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .invitation__title {
+    font-family: $font-display;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: $darkGray;
+    width: 140px;
+    height: 60px;
+  }
+}
+
+.invitation__address-link {
+  font-family: $font-stack;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: $slateGray;
+  text-decoration: none;
+}
+
+@media (min-width: $tablet-width) {
+  .invitation__address-link {
+    font-family: $font-stack;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: $slateGray;
+    text-decoration: none;
+    width: 157px;
+    height: 80px;
+  }
+}
+
+.invitation__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: $tablet-width) {
+  .invitation__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 786px;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .invitation__wrapper {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 1440px;
+    display: flex;
+    margin-left: 110px;
+    height: 400px;
+    align-items: center;
+  }
+}
+
+
+.invitation__address {
+  width: 140px;
+  height: 60px;
+}
+
+@media (min-width: $tablet-width) {
+  .invitation__address {
+    height: 80px;
+  }
+}
+
+
+.invitation__mobile-map {
+  background-image: url("/icons/mobile-map.svg");
+  width: 320px;
+  height: 362px;
+}
+
+@media (min-width: $tablet-width) {
+  .invitation__mobile-map {
+    width: 768px;
+    height: 400px;
+    background-image: url("/icons/mobile-map.svg");
+  }
+}

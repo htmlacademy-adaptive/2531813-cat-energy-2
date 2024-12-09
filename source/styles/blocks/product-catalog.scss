@@ -1,0 +1,148 @@
+.product-catalog__title {
+  font-family: $font-display;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: $base-color-text;
+  margin-left: 140px;
+}
+
+.product-catalog__title-main {
+  font-family: $font-display;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: $base-color-text;
+}
+
+.product-catalog__title-more {
+  font-family: $font-display;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $base-color-text;
+}
+
+.product-catalog__link {
+  text-decoration: none;
+}
+
+.product-catalog__subject {
+  font-family: $font-display;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.product-catalog__info-label {
+  font-family: $font-stack;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: $slateGray;
+}
+
+.product-catalog__info-value {
+  font-family: $font-stack;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: $slateGray;
+}
+
+.product-catalog__order-button {
+  color: $whiteColor;
+  font-family: $font-display;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #68b738;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 109px;
+}
+
+.product-catalog__text {
+  font-family: $font-stack;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: $slateGray;
+}
+
+.product-catalog__show-button {
+  color: $slateGray;
+  font-family: $font-display;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 94px;
+  border: none;
+  width: 280px;
+}
+
+.product-catalog__item--chiken-500g {
+  background-image: url("/images/cat-energy-chicen.jpg");
+  background-size: 68px 86px;
+  background-repeat: no-repeat;
+}
+
+.product-catalog__item--chiken-1000g {
+  background-image: url("/images/cat-energy-pro-chicen.jpg");
+  background-size: 68px 86px;
+  background-repeat: no-repeat;
+}
+
+.product-catalog__item--fish-500g {
+  background-image: url("/images/cat-energy-fish.jpg");
+  background-size: 68px 86px;
+  background-repeat: no-repeat;
+}
+
+.product-catalog__item--fish-1000g {
+  background-image: url("/images/cat-energy-pro-fish.jpg");
+  background-size: 68px 86px;
+  background-repeat: no-repeat;
+}
+
+.product-catalog__item--buckwheat-500g {
+  background-image: url("/images/cat-energy-buckwheat.jpg");
+  background-size: 68px 86px;
+  background-repeat: no-repeat;
+}
+
+.product-catalog__item--buckwheat-1000g {
+  background-image: url("/images/cat-energy-pro-buckwheat.jpg");
+  background-size: 68px 86px;
+  background-repeat: no-repeat;
+}
+
+.product-catalog__item--rice-500g {
+  background-image: url("/images/cat-energy-rice.jpg");
+  background-size: 68px 86px;
+  background-repeat: no-repeat;
+}
+
+.product-catalog__item--more-goods {
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.product-catalog__item--more-goods::after {
+  content: "";
+  background-image: url("/icons/plus.svg");
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 30px;
+  left: 120px;
+}

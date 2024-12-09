@@ -1,1 +1,17 @@
-/* здесь используйте глобальные селекторы img, body, html и так далее */
+body {
+  font-family: "Lato", sans-serif;
+  color: $base-color-text;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}

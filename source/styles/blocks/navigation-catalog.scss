@@ -1,0 +1,18 @@
+.navigation-catalog {
+  text-decoration: none;
+}
+
+.navigation-catalog__toggle {
+  background-image: url("/icons/cross.svg");
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: $whiteColor;
+}
+
+.navigation-catalog__toggle--close {
+  background-image: url("/icons/burger-decoration.svg");
+}
+

@@ -1,0 +1,238 @@
+.how-works {
+  position: relative;
+}
+
+.how-works__wrapper {
+  width: 280px;
+  height: 380px;
+}
+
+@media (min-width: $desktop-width) {
+  .how-works__wrapper {
+    width: 1440px;
+  }
+}
+
+
+@media (min-width: $tablet-width) {
+  .how-works {
+    margin-top: 180px;
+    position: relative;
+    min-width: 768px;
+  }
+}
+
+
+.how-works__title {
+  font-family: $font-display;
+  font-size: 36px;
+  line-height: 40px;
+  color: $base-color-text;
+  margin: 0 0 40px;
+  padding: 0;
+  display: flex;
+  width: 375px;
+}
+
+@media (min-width: $tablet-width) {
+  .how-works__title {
+    font-family: $font-display;
+    font-size: 60px;
+    line-height: 60px;
+    color: $base-color-text;
+    margin-left: 35px;
+    padding: 0;
+  }
+}
+
+.how-works__text {
+  font-family: $font-stack;
+  font-size: 14px;
+  line-height: 14px;
+  color: $base-color-text;
+  width: 200px;
+  margin-left: 80px;
+  margin-top: 5px;
+  position: absolute;
+  z-index: 1;
+}
+
+@media (min-width: $desktop-width) {
+  .how-works__text {
+    font-family: $font-stack;
+    font-size: 14px;
+    line-height: 14px;
+    color: $base-color-text;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+  }
+}
+
+.how-works__item {
+  content: "";
+  background-color: rgb(104, 183, 56);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+.how-works__item--sheet {
+  background-image: url("/icons/sheet.svg");
+  background-size: 30px 32px;
+}
+
+@media (min-width: $tablet-width) {
+  .how-works__item--sheet::after {
+    content: "";
+    background-image: url("/icons/one.svg");
+    width: 112px;
+    height: 280px;
+    position: absolute;
+    left: 130px;
+    top: 75px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .how-works__item--sheet::after {
+    content: "";
+    background-image: url("/icons/one.svg");
+    width: 112px;
+    height: 280px;
+    position: absolute;
+    left: 150px;
+    top: 10px;
+  }
+}
+
+.how-works__item--powder {
+  background-image: url("/icons/powder.svg");
+  background-size: 26px 29px;
+}
+
+@media (min-width: $tablet-width) {
+  .how-works__item--powder::after {
+    content: "";
+    background-image: url("/icons/two.svg");
+    width: 134px;
+    height: 280px;
+    position: absolute;
+    top: 75px;
+    left: 520px;
+    z-index: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .how-works__item--powder::after {
+    content: "";
+    background-image: url("/icons/two.svg");
+    width: 134px;
+    height: 280px;
+    position: absolute;
+    inset: 0 0 0 550px;
+  }
+}
+
+
+.how-works__item--cutlery {
+  background-image: url("/icons/cutlery.svg");
+  background-size: 25px 30px;
+}
+
+@media (min-width: $tablet-width) {
+  .how-works__item--cutlery::after {
+    content: "";
+    background-image: url("/icons/three.svg");
+    width: 112px;
+    height: 280px;
+    position: absolute;
+    top: 400px;
+    left: 525px;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .how-works__item--cutlery::after {
+    content: "";
+    background-image: url("/icons/three.svg");
+    width: 112px;
+    height: 280px;
+    position: absolute;
+    top: 10px;
+    left: 940px;
+  }
+}
+
+.how-works__item--scales {
+  background-image: url("/icons/scales.svg");
+  background-size: 26px 31px;
+}
+
+@media (min-width: $tablet-width) {
+  .how-works__item--scales::after {
+    content: "";
+    background-image: url("/icons/four.svg");
+    width: 112px;
+    height: 280px;
+    position: absolute;
+    top: 400px;
+    left: 130px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .how-works__item--scales::after {
+    content: "";
+    background-image: url("/icons/four.svg");
+    width: 112px;
+    height: 280px;
+    position: absolute;
+    top: 10px;
+    left: 1340px;
+  }
+}
+
+
+.how-works__list {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 300px;
+  padding: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .how-works__list {
+    display: grid;
+    grid-template-columns: repeat(2, 230px);
+    grid-template-rows: repeat(2, 280px);
+    column-gap: 153px;
+    row-gap: 38px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .how-works__list {
+    display: grid;
+    grid-template-columns: 230px 246px 248px 250px;
+    position: relative;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .how-works__item {
+    background-color: rgb(104, 183, 56);
+    padding: 20px;
+  }
+}

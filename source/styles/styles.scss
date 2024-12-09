@@ -1,7 +1,25 @@
 /* GLOBAL */
 @import "./common/variables.scss";
-@import "./common/global.scss";
+@import "./common/mixins.scss";
 @import "./common/fonts.scss";
+@import "./common/global.scss";
 
-/* BLOCKS */
-@import "./blocks/header.scss";
+// BLOCKS
+@import "blocks/main-header";
+@import "blocks/navigation";
+@import "blocks/product-program";
+@import "blocks/how-works";
+@import "blocks/example-case";
+@import "blocks/invitation";
+@import "blocks/main-footer";
+@import "blocks/header-catalog";
+@import "blocks/navigation-catalog";
+@import "blocks/main-catalog";
+@import "blocks/product-catalog";
+@import "blocks/additional-products.scss";
+@import "blocks/promotions-products";
+@import "blocks/invitation-catalog";
+@import "blocks/catalog-footer";
+@import "blocks/visually-hidden";
+@import "blocks/main-container";
+

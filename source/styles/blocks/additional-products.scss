@@ -1,0 +1,58 @@
+.additional-products__title {
+  font-family: $font-display;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: $base-color-text;
+}
+
+.additional-products__text {
+  font-family: $font-display;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgb(34, 34, 34);
+}
+
+.additional-products__info-title {
+  font-family: $font-stack;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: $slateGray;
+}
+
+.additional-products__info-price {
+  font-family: $font-stack;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: $slateGray;
+}
+
+.additional-products__orders {
+  color: $whiteColor;
+  font-family: $font-display;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #68b738;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 109px;
+}
+
+.additional-products__text-orders {
+  font-family: $font-stack;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $whiteColor;
+}
+
+
+.additional-products__cat-backpack {
+  width: 280px;
+  height: 290px;
+  background-image: url("images/cat-backpack.jpg");
+}

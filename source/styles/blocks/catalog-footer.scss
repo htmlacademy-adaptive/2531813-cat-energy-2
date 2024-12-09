@@ -1,0 +1,48 @@
+.catalog-footer {
+  text-decoration: none;
+}
+
+.catalog-footer__social-link--vkonakte {
+  background-color: rgb(102, 102, 102);
+  mask-image: url("/icons/vkontakte.svg");
+  mask-size: 28px 22px;
+  mask-repeat: no-repeat;
+}
+
+.catalog-footer__social-link--yotube {
+  background-color: rgb(102, 102, 102);
+  mask-image: url("/icons/yotube.svg");
+  mask-size: 28px 22px;
+  mask-repeat: no-repeat;
+}
+
+.catalog-footer__social-link--telegram {
+  background-color: rgb(102, 102, 102);
+  mask-image: url("/icons/telegram.svg");
+  mask-size: 28px 22px;
+  mask-repeat: no-repeat;
+}
+
+.catalog-footer__social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-footer__social-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.catalog-footer__social-item {
+  margin-right: 26px;
+}
+
+.catalog-footer__social-item:last-child {
+  margin-right: 0;
+}
+
+.catalog-footer__link {
+  height: 34px;
+}
